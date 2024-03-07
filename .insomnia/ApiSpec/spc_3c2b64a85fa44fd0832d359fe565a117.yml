@@ -1,13 +1,13 @@
 _id: spc_3c2b64a85fa44fd0832d359fe565a117
 type: ApiSpec
 parentId: wrk_9435ceff899849e0ba3d4e1740459900
-modified: 1709834796994
+modified: 1709835930324
 created: 1709834363493
 fileName: Api-Opps.yaml
 contents: |-
   openapi: 3.0.0
   info:
-    description: OpenAPI Specification for the Mock Targets M
+    description: OpenAPI Specification for the Mocks Targets M
     version: 1.0.3
     title: My Mock Target APIM
     contact:
