@@ -32,7 +32,7 @@ jobs:
       run: ./inso lint spec spc_3c2b64
       
     - name: Generate kong.yaml  # Generate Kong configuration in declarative format
-      run: ./inso generate config spc_0d1e37 --type declarative -o kong.yaml --kongVersion 3
+      run: ./inso generate config spc_3c2b64 --type declarative -o kong.yaml --kongVersion 3
       
     - name: install deck CLI  # Install deck CLI for syncing Kong configuration
       run: |
