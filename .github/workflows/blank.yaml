@@ -26,10 +26,10 @@ jobs:
       run:  npm install -g insomnia
       
     - name: Test the Inso OpenApSpec
-      run: ./inso run test 
+      run: ./inso run test spc_3c2b64
       
     - name: Lint OpenAPI Spec  # Lint the OpenAPI spec using Insomnia CLI
-      run: ./inso lint spec 
+      run: ./inso lint spec spc_3c2b64
       
     - name: Generate kong.yaml  # Generate Kong configuration in declarative format
       run: ./inso generate config spc_0d1e37 --type declarative -o kong.yaml --kongVersion 3
