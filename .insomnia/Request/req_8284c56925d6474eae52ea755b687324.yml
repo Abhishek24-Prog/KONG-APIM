@@ -1,0 +1,21 @@
+_id: req_8284c56925d6474eae52ea755b687324
+type: Request
+parentId: fld_a50abbd232e84e0891197ff7fdd24470
+modified: 1709834363561
+created: 1709834363561
+url: "{{ _.base_url }}/xml"
+name: /xml
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1708069121242
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

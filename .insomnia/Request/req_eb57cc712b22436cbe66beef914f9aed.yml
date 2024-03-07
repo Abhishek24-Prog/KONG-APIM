@@ -1,0 +1,26 @@
+_id: req_eb57cc712b22436cbe66beef914f9aed
+type: Request
+parentId: fld_037511b36b504101a966be9b32a500a4
+modified: 1709834363507
+created: 1709834363507
+url: http://34.125.163.62:8000/students
+name: /json
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: apikey
+  disabled: false
+  key: ""
+  value: ""
+  addTo: header
+metaSortKey: -1692930110946
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
