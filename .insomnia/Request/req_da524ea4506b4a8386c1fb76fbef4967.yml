@@ -1,17 +1,19 @@
-_id: req_7d79561e12d04af4b8f150851961bd3f
+_id: req_da524ea4506b4a8386c1fb76fbef4967
 type: Request
-parentId: fld_fcca79f314a2403ea2a7b0ae3a43409a
-modified: 1710000024643
-created: 1710000002409
-url: "{{ _.base_path }}/xml"
-name: /xml
+parentId: wrk_9435ceff899849e0ba3d4e1740459900
+modified: 1723990739175
+created: 1723989455615
+url: "{{ _.base_url }}/json"
+name: New Request
 description: ""
 method: GET
 body: {}
 parameters: []
-headers: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.4
 authentication: {}
-metaSortKey: -1710000002409
+metaSortKey: -1723989455615
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

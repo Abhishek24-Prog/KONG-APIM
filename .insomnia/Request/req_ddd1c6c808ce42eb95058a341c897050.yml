@@ -1,17 +1,17 @@
-_id: req_5a217525825c4b929a6db84846585970
+_id: req_ddd1c6c808ce42eb95058a341c897050
 type: Request
-parentId: fld_8df6d91b4b4b4e26a4a0a869f84d6a20
-modified: 1710000166987
-created: 1710000002406
-url: "{{ _.base_path }}/json"
-name: /json
+parentId: fld_7981b6c577714d2f957d4df5d9889ef8
+modified: 1723989443762
+created: 1723989443762
+url: "{{ _.base_url }}/xml"
+name: /xml
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1710000002407
+metaSortKey: -1723989443762
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
